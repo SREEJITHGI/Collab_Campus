@@ -1,0 +1,26 @@
+{
+  "name": "collabcampus-root",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CollabCampus — The Smart Campus Collaboration Platform",
+  "scripts": {
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "start:server": "npm --prefix server start",
+    "start:client": "npm --prefix client run dev",
+    "install:all": "npm install && npm --prefix server install && npm --prefix client install",
+    "migrate": "npm --prefix server run migrate",
+    "seed": "npm --prefix server run seed",
+    "test:server": "npm --prefix server test"
+  },
+  "keywords": [
+    "campus",
+    "collaboration",
+    "education",
+    "react",
+    "express",
+    "postgresql"
+  ],
+  "author": "CollabCampus Team",
+  "license": "ISC"
+}
